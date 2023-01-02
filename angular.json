@@ -25,9 +25,54 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              
+              "src/assets/plugins/pace-master/themes/blue/pace-theme-flash.css",
+              "src/assets/plugins/uniform/css/uniform.default.min.css",
+              "src/assets/plugins/bootstrap/css/bootstrap.min.css",
+              "src/assets/plugins/fontawesome/css/font-awesome.css",
+              "src/assets/plugins/line-icons/simple-line-icons.css",
+              "src/assets/plugins/offcanvasmenueffects/css/menu_cornerbox.css",
+              "src/assets/plugins/waves/waves.min.css",
+              "src/assets/plugins/switchery/switchery.min.css",
+              "src/assets/plugins/3d-bold-navigation/css/style.css",
+              "src/assets/plugins/slidepushmenus/css/component.css",
+              "src/assets/plugins/weather-icons-master/css/weather-icons.min.css",
+              "src/assets/plugins/metrojs/MetroJs.min.css",
+              "src/assets/plugins/toastr/toastr.min.css",
+              "src/assets/css/modern.min.css" ,
+"src/assets/css/themes/green.css",
+"src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/3d-bold-navigation/js/modernizr.js",
+"src/assets/plugins/offcanvasmenueffects/js/snap.svg-min.js",
+"src/assets/plugins/jquery/jquery-2.1.4.min.js",
+"src/assets/plugins/jquery-ui/jquery-ui.min.js",
+"src/assets/plugins/pace-master/pace.min.js",
+"src/assets/plugins/jquery-blockui/jquery.blockui.js",
+"src/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js",
+"src/assets/plugins/switchery/switchery.min.js",
+"src/assets/plugins/uniform/jquery.uniform.min.js",
+"src/assets/plugins/offcanvasmenueffects/js/classie.js",
+"src/assets/plugins/offcanvasmenueffects/js/main.js",
+"src/assets/plugins/waves/waves.min.js",
+"src/assets/plugins/3d-bold-navigation/js/main.js",
+"src/assets/plugins/waypoints/jquery.waypoints.min.js",
+"src/assets/plugins/jquery-counterup/jquery.counterup.min.js",
+"src/assets/plugins/toastr/toastr.min.js",
+"src/assets/plugins/flot/jquery.flot.min.js",
+"src/assets/plugins/flot/jquery.flot.time.min.js",
+"src/assets/plugins/flot/jquery.flot.symbol.min.js",
+"src/assets/plugins/flot/jquery.flot.resize.min.js",
+"src/assets/plugins/flot/jquery.flot.tooltip.min.js",
+"src/assets/plugins/curvedlines/curvedLines.js",
+"src/assets/plugins/metrojs/MetroJs.min.js",
+"src/assets/plugins/bootstrap/js/bootstrap.min.js",
+"src/assets/js/modern.js",
+"src/assets/js/pages/dashboard.js",
+"src/assets/js/pages/profile.js"
+
+]
           },
           "configurations": {
             "production": {

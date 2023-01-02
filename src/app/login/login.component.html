@@ -1,0 +1,30 @@
+ <div class="main_login_div">
+ <div class="login_div">
+
+    <div class=" login_heading" >
+    Next Continent
+    </div>
+   <form [formGroup]="myForm" (ngSubmit)="checkuser()">
+       <div class="form-outline mb-4">
+           <label class="form-label" for="form2Example1">User Name</label>
+         <input type="text" (focus)="true" id="form2Example1" class="form-control" formControlName="userName" />
+         <span  *ngIf="userName?.invalid  && userName?.touched" style="font-size: 14px; color:rgb(255, 0, 0); font-weight:100; margin-left:5px">username is required.</span>
+      
+       </div>
+     
+       <div class="form-outline mb-4">
+           <label class="form-label" for="form2Example2">Password</label>
+         <input type="password" id="form2Example2" class="form-control" formControlName="password" />
+         <span  *ngIf="password?.invalid  && password?.touched" style="font-size: 14px; color:rgb(255, 0, 0); font-weight:100; margin-left:5px">password is required.</span>
+         <span  *ngIf="password?.invalid  && password?.touched" style="font-size: 14px; color:rgb(255, 0, 0); font-weight:100; margin-left:5px">minimum length is 5.</span>
+         <span  *ngIf="invalid" style="font-size: 14px; color:rgb(255, 0, 0); font-weight:100; margin-left:5px">Invalid credentials.</span>
+
+       </div>
+     
+
+       <div class="btn-login" >
+           <button type="submit" style="" class="btn btn-primary">Sign in</button>
+       </div>
+     </form>
+</div>
+</div>

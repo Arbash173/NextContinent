@@ -1,0 +1,12 @@
+.fa-upload{
+    position: relative;
+    left:2%;
+    top:50%;
+}
+
+textarea{
+    width: 101%;
+}
+.up_img_text{
+cursor: pointer;
+}
